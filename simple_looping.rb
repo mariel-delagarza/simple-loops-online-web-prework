@@ -1,5 +1,3 @@
-# REMEMBER: print your output to the terminal using 'puts'
-
 def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
@@ -31,16 +29,14 @@ def while_iterator(number_of_times)
 end
 
 def until_iterator(number_of_times)
-  # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-  count = 1 
-  loop do 
-  until count > number_of_times
-  puts phrase
-  count += 1 
-end 
+    count = 1 
+    loop do 
+    until count > number_of_times
+    puts phrase
+    count += 1 
+  end 
 end
 
 def for_iterator(number_of_times)
